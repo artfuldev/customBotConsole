@@ -27,3 +27,4 @@ for n = 1:N
 end
 fclose(fid);
 plotGlobal(25,scan);
+getUnion(25,scan);
