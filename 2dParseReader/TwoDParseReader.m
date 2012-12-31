@@ -18,11 +18,11 @@ for n = 1:N
     scan(n).robotPose = fscanf(fid, '%f',[1,3]);
     scan(n).globalPose = fscanf(fid, '%f',[1,3]);
     localP = fscanf(fid, '%f', [2,541]);
-    scan(n).localPose=localP';
-    scan(n).localPose(:,3:3)=onesM;
-    scan(n).localPose=scan(n).localPose';
+    scan(n).localPoses=localP';
+    scan(n).localPoses(:,3:3)=onesM;
+    scan(n).localPoses=scan(n).localPose';
     for m=1:541
-        scan(n).globalPoses(:,m)=toGlobal(scan(n).localPose(:,m),scan(n).globalPose);
+        scan(n).globalPoses(:,m)=toGlobal(scan(n).localPoses(:,m),scan(n).globalPose);
     end
 end
 fclose(fid);
