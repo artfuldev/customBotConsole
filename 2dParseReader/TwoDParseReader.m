@@ -28,3 +28,4 @@ end
 fclose(fid);
 plotGlobal(25,scan);
 getUnion(25,scan);
+lines=iFit(scan(1).globalPoses(:,:));

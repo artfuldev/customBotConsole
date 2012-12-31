@@ -61,7 +61,15 @@
       <file>${PROJECT_ROOT}\TwoDParseReader.m</file>
     </fileset.main>
     <fileset.resources>
+      <file>${PROJECT_ROOT}\df.2dparse</file>
+      <file>${PROJECT_ROOT}\getUnion.m</file>
+      <file>${PROJECT_ROOT}\leastSquaresTest.m</file>
+      <file>${PROJECT_ROOT}\mergeScans.m</file>
+      <file>${PROJECT_ROOT}\plotGlobal.m</file>
       <file>${PROJECT_ROOT}\plotGraph.m</file>
+      <file>${PROJECT_ROOT}\testIncrementalFit.m</file>
+      <file>${PROJECT_ROOT}\toGlobal.m</file>
+      <file>${PROJECT_ROOT}\TwoDParseReader.m</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
