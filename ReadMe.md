@@ -1,7 +1,7 @@
 #CustomBotConsole
 * Authors: Kenshin Himura *(Sudarsan Balaji)*, Balakumar S
 * License: *GNU GPL v3 and CC-BY-NC-SA Licenses* (see gpl.txt and ccbyncsa.txt)
-* ReadMe Version: 1.0
+* ReadMe Version: 1.1
 
 ##Description
 This repository holds various project and project-related directories pertaining to our final year project. The main project directories are explained as below.
@@ -19,11 +19,11 @@ is the MATLAB project directory of the parser and processor of the .2dparse file
 
 ##Updates and Stuff
 * Created debug branches to push to master later, and to allow collaboration.
-* Branch debugKen branched from master for use by kenshinthebattosai
-* Branch debugBala branched from debugKen for use by balakumar-s
-* Visit http://www.github.com/kenshinthebattosai/customBotConsole/network for network/branch information.
+* Branch [debugKen](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugKen) branched from master for use by [kenshinthebattosai](http://www.github.com/kenshinthebattosai)
+* Branch [debugBala](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugBala) branched from debugKen for use by [balakumar-s](http://www.github.com/balakumar-s)
+* Visit [network branch page of this project](http://www.github.com/kenshinthebattosai/customBotConsole/network) for network/branch information.
 
 ##Ongoing Branches of Work
 (to be updated every once branches of work are finished)
-* kenshinthebattosai currently working on implementing Incremental Fit
-* balakumar-s currently working on converting readings to images and processing them.
+* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on implementing Incremental Fit
+* [balakumar-s](http://www.github.com/balakumar-s) currently working on converting readings to images and processing them.
