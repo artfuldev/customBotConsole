@@ -25,5 +25,5 @@ is the MATLAB project directory of the parser and processor of the .2dparse file
 
 ##Ongoing Branches of Work
 (to be updated every once branches of work are finished)
-* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on implementing Incremental Fit
-* [balakumar-s](http://www.github.com/balakumar-s) currently working on converting readings to images and processing them.
+* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on debugging the implemented Incremental Line Fit code.
+* [balakumar-s](http://www.github.com/balakumar-s) currently working on feature extraction from the processed images.

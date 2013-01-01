@@ -3,8 +3,6 @@ function [imgMat]= toImg(scan,N)
 %and run this function.It uses lot of RAM but less CPU(10% max) 
     cGP=zeros(3,541);
     cGP(3,:)=1;
-    %rX=0;
-    %rY=0;
     imgSum=zeros;
     mGP=zeros;
     %structure correctGP has values of GPoses downsized for image creation
@@ -25,11 +23,3 @@ function [imgMat]= toImg(scan,N)
             imgMat(correctGP(j).correctedGPoses(1,i),correctGP(j).correctedGPoses(2,i),j)=1;
         end
     end
-   %res=size(imgMat);
-    %rX=res(1,1);
-    %rY=res(1,2);
-    %for i=1:rX
-     %   for j=1:rY
-      %      imgSum(i,j)=sum(imgMat(i,j,:));
-       % end
-    %end       

@@ -27,3 +27,7 @@ merges the scans such that no value is repeated and least error is present in th
 was used to test least squares fit of lines to points. Not used as of now.
 ###iFit
 is used to Incremental-Fit lines to the points of global poses in a scan.
+###toImg
+is used to convert the existing scans to downsized binary (or grayscale in future editions) images representing the scans.
+###storeImg
+is used to store the image data processed from the scans into images.
