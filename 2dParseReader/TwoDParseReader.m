@@ -20,7 +20,7 @@ for n = 1:N
     localP = fscanf(fid, '%f', [2,541]);
     scan(n).localPoses=localP';
     scan(n).localPoses(:,3:3)=onesM;
-    scan(n).localPoses=scan(n).localPose';
+    scan(n).localPoses=scan(n).localPoses';
     for m=1:541
         scan(n).globalPoses(:,m)=toGlobal(scan(n).localPoses(:,m),scan(n).globalPose);
     end
