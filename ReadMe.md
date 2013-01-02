@@ -19,11 +19,13 @@ is the MATLAB project directory of the parser and processor of the .2dparse file
 
 ##Updates and Stuff
 * Created debug branches to push to master later, and to allow collaboration.
-* Branch [debugKen](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugKen) branched from master for use by [kenshinthebattosai](http://www.github.com/kenshinthebattosai)
-* Branch [debugBala](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugBala) branched from debugKen for use by [balakumar-s](http://www.github.com/balakumar-s)
+* Branch [debugKen](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugKen) branched from master for use by [kenshinthebattosai](http://www.github.com/kenshinthebattosai).
+* Branch [debugBala](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugBala) branched from master for use by [balakumar-s](http://www.github.com/balakumar-s).
+* Branch [debugYash](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugYash) branched from master for use by Yaswanth Kodavali.
 * Visit [network branch page of this project](http://www.github.com/kenshinthebattosai/customBotConsole/network) for network/branch information.
 
 ##Ongoing Branches of Work
 (to be updated every once branches of work are finished)
-* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on debugging the implemented Incremental Line Fit code.
+* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on implementing Split-and-Merge line fitting.
 * [balakumar-s](http://www.github.com/balakumar-s) currently working on feature extraction from the processed images.
+* yash.kodavali currently working on line fitting (parallel to [kenshinthebattosai](http://www.github.com/kenshinthebattosai).
