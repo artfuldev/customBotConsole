@@ -1,5 +1,5 @@
 #CustomBotConsole
-* Authors: Kenshin Himura *(Sudarsan Balaji)*, Balakumar S
+* Authors: Kenshin Himura *(Sudarsan Balaji)*, Balakumar S, Yaswanth Kodavali
 * License: *GNU GPL v3 and CC-BY-NC-SA Licenses* (see gpl.txt and ccbyncsa.txt)
 * ReadMe Version: 1.2
 
