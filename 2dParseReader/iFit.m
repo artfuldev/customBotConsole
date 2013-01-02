@@ -22,7 +22,7 @@ function [lineStack] = iFit(data)
         while(j<=M)
             x3=x0(i+j);
             y3=y0(i+j);
-            if(y3~=((m*x3)+c))
+            if(round(round(y3)/10)~=round(round(((m*x3)+c))/10))
                 N=N+j;
                 i=i+j;
                 if(j~=1)
@@ -39,6 +39,9 @@ function [lineStack] = iFit(data)
             end;
         end;
         fprintf('%d,%d\n',i,j);
+        if(i==sizeData(2))
+            setFlag=1;
+        end;
         if(setFlag==1)
             i=i+1;
         end;
@@ -51,4 +54,9 @@ function [lineStack] = iFit(data)
     figure(2);
     hold on;
     plot(x0,y0);
+    figure(3);
+    hold on;
+    for i=1:lineCount
+        plot(lineDetails(i,:));
+    end;
 end
