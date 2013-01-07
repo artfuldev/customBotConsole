@@ -1,3 +1,4 @@
+%gives the union of n scans and plots it
 function getUnion(N,scan)
 globalXY=zeros(1,2);
 figure(1);

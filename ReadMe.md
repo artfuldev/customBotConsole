@@ -26,6 +26,6 @@ is the MATLAB project directory of the parser and processor of the .2dparse file
 
 ##Ongoing Branches of Work
 (to be updated every once branches of work are finished)
-* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on implementing Split-and-Merge line fitting.
-* [balakumar-s](http://www.github.com/balakumar-s) currently working on feature extraction from the processed images.
-* yash.kodavali currently working on line fitting (parallel to [kenshinthebattosai](http://www.github.com/kenshinthebattosai).
+* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on an improved implementation of least squares scan-matching.
+* [balakumar-s](http://www.github.com/balakumar-s) currently working on segmentation of laser readings for line fitting and line fitting.
+* yash.kodavali currently working on understanding the working of the bot.
