@@ -31,3 +31,9 @@ is used to Incremental-Fit lines to the points of global poses in a scan.
 is used to convert the existing scans to downsized binary (or grayscale in future editions) images representing the scans.
 ###storeImg
 is used to store the image data processed from the scans into images.
+###splitAndMerge
+is used to fit lines to the laser readings. Not very efficient as of now. Needs segmentation.
+###testSplitAndMerge
+is used to test the split and merge function with test inputs.
+###lsFit
+is the least squares method scan matching function. Has to be improved a bit. Being worked on.

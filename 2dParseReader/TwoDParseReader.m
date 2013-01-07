@@ -8,9 +8,9 @@ globalPs=zeros(3,541);
 onesM=ones(541,1);
 tempPose=zeros(3,1);
 scan=struct('count',c,'time',timE,'velo',velocT,'robotPose',robotP,'globalPose',globalP,'localPose',localP,'globalPoses',globalPs);
-filename = 'df.2dparse';
+filename = 'rr.2dparse';
 fid = fopen(filename);
-N=1055;
+N=321;
 for n = 1:N
     scan(n).count = fscanf(fid, '\nScan %d', 1);
     scan(n).time = fscanf(fid, '%f', [1,1]);
@@ -22,10 +22,11 @@ for n = 1:N
     scan(n).localPoses(:,3:3)=onesM;
     scan(n).localPoses=scan(n).localPoses';
     for m=1:541
-        scan(n).globalPoses(:,m)=toGlobal(scan(n).localPoses(:,m),scan(n).globalPose);
+        scan(n).globalPoses(:,m)=toGlobal(scan(n).localPoses(:,m),scan(n).globalPose,scan(1).globalPose);
     end
 end
 fclose(fid);
 plotGlobal(25,scan);
+t5t6=lsFit(scan,25,26);
 getUnion(25,scan);
-lines=iFit(scan(1).globalPoses(:,:));
+%lines=iFit(scan(1).globalPoses(:,:));
