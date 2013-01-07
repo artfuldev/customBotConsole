@@ -1,15 +1,20 @@
+%set up points for line y=4x+5
 x=[1 3 5 7 9];
 y=(4*x)+5;
+%display for debugging purposes
 disp(x);
 disp(y);
+%make x0 and x1 as subsets of (x,y)
 x0=zeros(3,4);
 x0(1:2,:)=[x(1,1:4);y(1,1:4)];
 x0(3:3,:)=ones(size(x),size(y));
+%create an outlier to simulate noise
 x0(2,4)=10;
 x1=x0;
 x1(1:2,1:4)=[x(1,2:5);y(1,2:5)];
 x1(2,3)=11;
 disp(x0);
+%setup transformation matrices
 a=60*pi/180;
 b=30*pi/180;
 tA=[cos(a),-sin(a),0;sin(a),cos(a),0;0,0,1];
@@ -20,6 +25,7 @@ txA(2,3)=1;
 txB=eye(3,3);
 txB(1,3)=1;
 txB(2,3)=2;
+%do the 2d transformations to points
 xA=txA*x0;
 xA=tA*xA;
 xB=txB*x1;
@@ -28,6 +34,8 @@ minVal=Inf;
 lsQ=0;
 txC=eye(3,3);
 txC(3,3)=1;
+%do least squares fit by rotating -/+ 45 degrees and
+%for x,y = +/-5 units 
 for t=-45:45
     theta=(t+(a*180/pi))*pi/180;
     tC=[cos(theta),-sin(theta),0;sin(theta),cos(theta),0;0,0,1];
@@ -53,4 +61,5 @@ for t=-45:45
         end;
     end;
 end;
+%plot graph
 plot(xB(1,:),xB(2,:),xLS(1,:),xLS(2,:));
