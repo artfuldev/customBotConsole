@@ -70,6 +70,10 @@
       <file>${PROJECT_ROOT}\testIncrementalFit.m</file>
       <file>${PROJECT_ROOT}\toGlobal.m</file>
       <file>${PROJECT_ROOT}\TwoDParseReader.m</file>
+      <file>${PROJECT_ROOT}\splitAndMerge.m</file>
+      <file>${PROJECT_ROOT}\testSplitAndMerge.m</file>
+      <file>${PROJECT_ROOT}\toImg.m</file>
+      <file>${PROJECT_ROOT}\storeImg.m</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
