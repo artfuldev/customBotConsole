@@ -1,7 +1,7 @@
 #CustomBotConsole
 * Authors: Kenshin Himura *(Sudarsan Balaji)*, Balakumar S, Yaswanth Kodavali
 * License: *GNU GPL v3 and CC-BY-NC-SA Licenses* (see gpl.txt and ccbyncsa.txt)
-* ReadMe Version: 1.2
+* ReadMe Version: 1.3
 
 ##Description
 This repository holds various project and project-related directories pertaining to our final year project. The main project directories are explained as below.
@@ -21,11 +21,11 @@ is the MATLAB project directory of the parser and processor of the .2dparse file
 * Created debug branches to push to master later, and to allow collaboration.
 * Branch [debugKen](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugKen) branched from master for use by [kenshinthebattosai](http://www.github.com/kenshinthebattosai).
 * Branch [debugBala](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugBala) branched from master for use by [balakumar-s](http://www.github.com/balakumar-s).
-* Branch [debugYash](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugYash) branched from master for use by Yaswanth Kodavali.
+* Branch [debugYash](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugYash) branched from master for use by [kyaswanth93](http://www.github.com/kyaswanth93).
 * Visit [network branch page of this project](http://www.github.com/kenshinthebattosai/customBotConsole/network) for network/branch information.
 
 ##Ongoing Branches of Work
 (to be updated every once branches of work are finished)
 * [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on an improved implementation of least squares scan-matching.
 * [balakumar-s](http://www.github.com/balakumar-s) currently working on segmentation of laser readings for line fitting and line fitting.
-* yash.kodavali currently working on understanding the working of the bot.
+* [kyaswanth93](http://www.github.com/kyaswanth93) currently working on understanding the working of the bot.
