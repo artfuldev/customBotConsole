@@ -1,0 +1,14 @@
+a=25;
+b=26;
+A=scan(a).localPoses;
+B=scan(b).localPoses;
+figure(5),plot(A(1,:),A(2,:));
+hold on;
+plot(B(1,:),B(2,:),'red');
+hold off;
+[r,t,ch]=scanMatchV2(A,B,10000,5);
+update=updatedOdometer(r,t,B,scan(a).globalPose,scan(1).globalPose);
+figure(9),plot(scan(a).globalPoses(1,:),scan(a).globalPoses(2,:),'red');
+hold on;
+plot(update(1,:),update(2,:));
+hold off;
