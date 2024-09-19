@@ -35,15 +35,15 @@ is the latest installment and freshly workable MATLAB project directory which co
 ## Updates and Stuff
 
 * Created debug branches to push to master later, and to allow collaboration.
-* Branch [debugKen](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugKen) branched from master for use by [kenshinthebattosai](http://www.github.com/kenshinthebattosai).
-* Branch [debugBala](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugBala) branched from master for use by [balakumar-s](http://www.github.com/balakumar-s).
-* Branch [debugYash](http://www.github.com/kenshinthebattosai/customBotConsole/tree/debugYash) branched from master for use by [kyaswanth93](http://www.github.com/kyaswanth93).
-* Visit [network branch page of this project](http://www.github.com/kenshinthebattosai/customBotConsole/network) for network/branch information.
+* Branch [debugKen](http://www.github.com/artfuldev/customBotConsole/tree/debugKen) branched from master for use by [artfuldev](http://www.github.com/artfuldev).
+* Branch [debugBala](http://www.github.com/artfuldev/customBotConsole/tree/debugBala) branched from master for use by [balakumar-s](http://www.github.com/balakumar-s).
+* Branch [debugYash](http://www.github.com/artfuldev/customBotConsole/tree/debugYash) branched from master for use by [kyaswanth93](http://www.github.com/kyaswanth93).
+* Visit [network branch page of this project](http://www.github.com/artfuldev/customBotConsole/network) for network/branch information.
 
 ## Ongoing Branches of Work
 
 (to be updated every once branches of work are finished)
 
-* [kenshinthebattosai](http://www.github.com/kenshinthebattosai) currently working on a novel approach to odometer-independant SLAM.
+* [artfuldev](http://www.github.com/artfuldev) currently working on a novel approach to odometer-independant SLAM.
 * [balakumar-s](http://www.github.com/balakumar-s) currently working on error-correction and identification of error propagation in SLAM.
 * [kyaswanth93](http://www.github.com/kyaswanth93) currently working on an alternative to the other two, still guessing what.
