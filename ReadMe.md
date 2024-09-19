@@ -1,6 +1,6 @@
 # CustomBotConsole
 
-* Authors: Kenshin Himura *(Sudarsan Balaji)*, Balakumar S, Yaswanth Kodavali
+* Authors: Sudarsan Balaji *(artfuldev)*, Balakumar S, Yaswanth Kodavali
 * License: *GNU GPL v3* (see COPYING.texi)
 * ReadMe Version: 1.4
 
